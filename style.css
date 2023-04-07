@@ -161,6 +161,7 @@ img{
 }
 
 .blog-card{
+
   margin: auto;
   text-align: left;
   padding-left: 30px;
@@ -184,6 +185,8 @@ color: #000000;
 }
 
 .box-1{
+    
+    border-radius: 4px;
     border: 1px solid #dddd;
 
 }
@@ -222,7 +225,9 @@ color: #000000;
     size:30.4px;
     line:31px
 }
-
+.sticky-top{
+    padding-top:30px;
+}
 .nav-container{
     max-width: 1400px;
 }
@@ -230,7 +235,7 @@ color: #000000;
     font-size: 30px;
   }
   .navbar .nav-item {
-    padding: 20px 0px;
+    padding: 5px 0px;
   }
   .navbar .nav-link {
     font-size: 18px;
@@ -257,5 +262,10 @@ color: #000000;
     .logotext {
         padding-left: 30px!important;
         width: 100%!important;
+    }
+    .h2-1 {
+        
+        padding: 100px 0px 42px 20px!important;
+        
     }
   }
