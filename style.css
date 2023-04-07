@@ -1,0 +1,261 @@
+html,body {
+    
+  
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fbfbfb;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    width:100%;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+
+    font-family: "League Spartan", sans-serif;
+}
+.main-section{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("img-4.png");
+}
+.nav-ass-main{
+    background-color: transparent!important;
+    color: #FFFFFF;
+    font-size: 30px;
+    line-height: 31px;
+    font-weight: 900;
+}
+.logotext{
+    padding-left: 90px!important;
+    width: 51%!important;
+}
+.nav-link{
+    padding: 0px 20px!important;
+    color: #FFFFFF!important;
+}
+.nav-as{
+    color: #FFFFFF;
+    padding: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.btn-ass {
+    background: transparent;
+    padding: 10px;
+    line-height: 21px;
+    font-size: 18px;
+    margin-right: 30px;
+    border-radius: 4px;
+    border: 2px solid #FFF;
+    font-weight: 500;
+    font-family: "inter";
+    color: white;
+}
+
+#hero-section {
+    
+    
+        width: 100%;
+        display: flex;
+        /* max-width: 1100px; */
+        margin: 0 auto 0px auto;
+        padding: 100px 0px 100px;
+        flex-wrap: nowrap;
+        align-content: space-around;
+        justify-content: space-around;
+    
+}
+
+#hero-text {
+    width: 100%;
+    padding: 32px 20px 32px 20px;
+    max-width: 800px;
+}
+
+#hero-image-width {
+    width: 40%;
+}
+
+
+#hero-image-1 {
+    left: 1013px;
+    width: 36%;
+    border-bottom-right-radius: 200px;
+    position: absolute;
+}
+#hero-image {
+    width: 100%;
+    border-bottom-right-radius: 200px;
+}
+
+.smalltext {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #000000;
+}
+
+
+    
+    .ass-text{
+        color: #fff;
+        font-size:80px;
+        font-family:'Libre Caslon Display';
+        line-height: 90px;
+    }
+.bigtext{
+    
+        font-family: 'Inter';
+        color: white;
+        font-size: 18px;
+        line-height: 30px;
+    
+}
+#contact-button {
+    display: block;
+    height: 44px;
+    width: 138px;
+    border-radius: 4px;
+    background-color: transparent;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    border: 2px solid #FFF;
+}
+
+
+.section{
+    background: #fff;
+
+}
+
+
+
+
+
+.square{
+    padding:0 50px;
+  width: 490px;
+	height: 792px;
+  border-radius: 4px;
+  
+
+}
+
+.mask{
+
+  border-radius: 4px;
+  position: absolute;
+}
+img{
+    width: 100%;
+}
+
+.blog-card{
+  margin: auto;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 30px;
+    line-height: 31px;
+    font-weight: 700;
+    font-size: 25px!important;
+font-family: 'Inter';
+color: #000000;
+
+}
+.blog-card p{
+    padding: 20px 0px!important;
+    margin: auto;
+ text-align: justify; 
+ font-weight: 500;
+ font-family: 'inter';
+ font-size: 12px;
+ color: #C8C8C8;
+ line-height: 18px;
+}
+
+.box-1{
+    border: 1px solid #dddd;
+
+}
+
+.button {
+    font-size: 15px;
+    color: #D9852C;
+
+    padding: 10px 18px;
+    border-radius: 3px;
+    text-align: right;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    
+    cursor: pointer;
+    font-family: 'inter';
+}
+
+.mb-50{
+  
+    margin-bottom:50px;
+}
+
+.h2-1 {
+    color:#000000;
+    width:1099px;
+    padding: 100px 0px 42px 64px;
+    font-size: 32px;
+}
+
+.navbar-brand{
+    font-family: 'inter';
+    color:white;
+    font-weight: 900;
+    size:30.4px;
+    line:31px
+}
+
+.nav-container{
+    max-width: 1400px;
+}
+.navbar .navbar-brand {
+    font-size: 30px;
+  }
+  .navbar .nav-item {
+    padding: 20px 0px;
+  }
+  .navbar .nav-link {
+    font-size: 18px;
+    margin-left: 0px;
+  }
+  .fa-bars {
+    color:white;
+    font-size: 30px;
+  }
+.get-btn{
+   border-radius: 10px;
+    border:1px solid #fff;
+    
+}
+
+  
+@media screen and (max-width: 480px) {
+    .ass-text{
+        color: #fff;
+        font-size:50px;
+        font-family:'Libre Caslon Display';
+        line-height: 61px;
+    }
+    .logotext {
+        padding-left: 30px!important;
+        width: 100%!important;
+    }
+  }
